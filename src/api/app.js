@@ -1,6 +1,6 @@
 const express = require('express');
 const rescue = require('express-rescue');
-const cors = require('cors')
+const cors = require('cors');
 const UserController = require('../controllers/user');
 const errorMiddleware = require('../middlewares/error');
 
