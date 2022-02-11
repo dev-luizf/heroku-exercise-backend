@@ -20,25 +20,27 @@ Preview [aqui](https://back-end-docker-exercise.herokuapp.com/users).
 
     ```npm install```
 
- 2. Depois crie um arquivo .env na raiz do projeto com as seguintes
+ 2. Depois crie um arquivo **.env** na raiz do projeto com as seguintes
     variáveis:
-    
-```
-DB_USERNAME=nomeDoBanco
-DB_PASSWORD=senhaDoBanco
-DATABASE=nomeDoBanco
-HOST=hostDoBanco
-DB_PORT=portaDoBanco
-```
+
+ ```
+ DB_USERNAME=nomeDoBanco
+ DB_PASSWORD=senhaDoBanco
+ DATABASE=nomeDoBanco
+ HOST=hostDoBanco
+ DB_PORT=portaDoBanco
+ ```
 
  3. Criar e popular o banco:
 
     ```npx sequelize db:create && npx sequelize db:migrate```
 
- 4. Rodar o servidor
+ 3. Rodar o servidor
 
     ```npm start```
 
- 5. Ser feliz e fazer uma requisição:
+ 1. Ser feliz e fazer uma requisição:
 
-    http://localhost:3000/users
+   
+
+ - https://localhost:3000/users
