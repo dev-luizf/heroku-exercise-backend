@@ -4,6 +4,8 @@
 
 Repositório de exercício para praticar o **deploy** de uma **API** node com express no **Heroku** utilizando **docker**.
 
+Preview [aqui](https://back-end-docker-exercise.herokuapp.com/users).
+
 ## Tecnologias:
 
  - Sequelize
@@ -28,3 +30,15 @@ DATABASE=nomeDoBanco
 HOST=hostDoBanco
 DB_PORT=portaDoBanco
 ```
+
+ 3. Criar e popular o banco:
+
+    ```npx sequelize db:create && npx sequelize db:migrate```
+
+ 4. Rodar o servidor
+
+    ```npm start```
+
+ 5. Ser feliz e fazer uma requisição:
+
+    http://localhost:3000/users
