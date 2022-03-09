@@ -1,18 +1,18 @@
-
-
 # heroku-exercise-backend
 
 Repositório de exercício para praticar o **deploy** de uma **API** node com express no **Heroku** utilizando **docker**.
 
-Preview [aqui](https://back-end-docker-exercise.herokuapp.com/users).
+A aplicação não foi feita por mim, meu papel aqui foi apenas de dockerizar, criar e configurar um banco de dados no supabase, fazer deploy no Heroku e por fim configurar CI/CD com GitHub Actions.
 
-## Tecnologias:
+Preview [aqui](https://back-end-docker-exercise.herokuapp.com/users) (pode não estar funcionando devido a limitações de plano grátis do Supbase e do Heroku).
 
- - Sequelize
- - Express
+## Tecnologias e ferramentas:
+
  - Node
  - Docker
  - GitHub actions
+ - Heroku
+ - Continuos Integration e Continuous Delivery
 
 ## Pra testar:
 
@@ -41,6 +41,9 @@ Preview [aqui](https://back-end-docker-exercise.herokuapp.com/users).
 
  1. Ser feliz e fazer uma requisição:
 
-   
-
  - https://localhost:3000/users
+
+
+
+
+
